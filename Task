@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="social media.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to MySocial</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="profileBtn">Profile</a></li>
+                <li><a href="#" id="newsFeedBtn">News Feed</a></li>
+                <li><a href="#" id="friendsBtn">Friends</a></li>
+                <li><a href="#" id="messagesBtn">Messages</a></li>
+                <li><a href="#" id="notificationsBtn">Notifications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="profileSection" class="section">
+        <h2>Your Profile</h2>
+        <div id="userProfile"></div>
+        <button id="editProfileBtn">Edit Profile</button>
+    </section>
+
+    <section id="newsFeedSection" class="section">
+        <h2>News Feed</h2>
+        <div id="newsFeed"></div>
+        <form id="postForm">
+            <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+            <button type="submit">Post</button>
+        </form>
+    </section>
+
+    <section id="friendsSection" class="section">
+        <h2>Friend Connections</h2>
+        <div id="friendList"></div>
+        <button id="addFriendBtn">Add Friend</button>
+    </section>
+
+    <section id="messagesSection" class="section">
+        <h2>Messages</h2>
+        <div id="messageList"></div>
+        <form id="messageForm">
+            <input type="text" id="messageContent" placeholder="Type a message...">
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="notificationsSection" class="section">
+        <h2>Notifications</h2>
+        <div id="notifications"></div>
+    </section>
+
+    <script src="social media.js"></script>
+</body>
+</html>
